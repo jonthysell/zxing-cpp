@@ -15,6 +15,10 @@
 * limitations under the License.
 */
 
+#if (_MSC_VER >= 1920)
+#pragma warning(disable : 4996)
+#endif
+
 #include "ODReader.h"
 #include "ODMultiUPCEANReader.h"
 #include "ODCode39Reader.h"
